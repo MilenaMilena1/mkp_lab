@@ -13,7 +13,7 @@ int main()
 {
     double a = (ra + rp) / 2.0; //большая полуось
     double e = (ra - rp) / (2.0 * a); //эксцентриситет
-    double p = a * (1.0 - (e * e)); //факальный параметр
+    double p = a * (1.0 - (e * e)); //фокальный параметр
     //double n = (sqrt(mu / pow(a, 3)));
     //double T = 2 * PI / n;  // средняя угловая скорость
     //double T = 2.0 * PI * (sqrt((pow(a, 3) / mu)));

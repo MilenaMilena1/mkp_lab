@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <fstream>
-#define ra 422 //радиус вектор апоцентра
-#define rp 415 //радиус вектор перицентра
+#define ra (422+6378) //радиус вектор апоцентра
+#define rp(415+6378) //радиус вектор перицентра
 #define T 5400 //период обращения ка в секундах
 #define mu 398600.0 //грав пар в км
 #define PI 3.1415926535
